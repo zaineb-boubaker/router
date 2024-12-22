@@ -1,0 +1,167 @@
+
+#navv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#logincontainer{
+    border: solid white 1px;
+    width: 40%;
+    margin-left: 50px;
+    height: 450px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+border-radius: 15px;
+
+}#registercontainer{
+    border: solid white 1px;
+    width: 40%;
+    margin-left: 50px;
+    height: 500px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+border-radius: 15px;
+
+}
+
+#logincontainer h1{
+          font-family: 'Cormorant Unicase', serif;
+color: white;
+
+}
+
+#logincontainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+#logincontainer label{
+    color: white;
+              font-family: 'Cormorant Unicase', serif;
+
+}
+
+#logincontainer input{
+     all: unset;
+     width: 400px;
+     border: solid 1px white;
+     height: 30px;
+     border-radius: 5px;
+ cursor: text;
+ caret-color: rgb(255, 255, 255);
+ padding-left: 5px;
+ backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#logincontainer button{
+    all: unset;
+    color: white;
+    border: solid 1px white;
+     height: 30px;
+     border-radius: 5px;
+ cursor: pointer;
+ text-align: center;
+               font-family: 'Cormorant Unicase', serif;
+margin-top: 20px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease; 
+        backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+
+}
+
+#logincontainer button:hover{
+      cursor: pointer;
+     transform: scale(0.97);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#registercontainer h1{
+          font-family: 'Cormorant Unicase', serif;
+color: white;
+margin-top: 5px;
+
+}
+
+#registercontainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+#registercontainer label{
+    color: white;
+              font-family: 'Cormorant Unicase', serif;
+
+}
+
+#registercontainer input{
+     all: unset;
+     width: 400px;
+     border: solid 1px white;
+     height: 30px;
+     border-radius: 5px;
+ cursor: text;
+ caret-color: rgb(255, 255, 255);
+ padding-left: 5px;
+ backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#registercontainer button{
+    all: unset;
+    color: white;
+    border: solid 1px white;
+     height: 30px;
+     border-radius: 5px;
+ cursor: pointer;
+ text-align: center;
+               font-family: 'Cormorant Unicase', serif;
+margin-top: 20px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease; 
+        backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+
+}
+
+#registercontainer button:hover{
+      cursor: pointer;
+     transform: scale(0.97);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}

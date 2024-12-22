@@ -1,0 +1,42 @@
+#imgcard{
+    width: 250px;
+    border: solid #2d1c30 ;
+    border-radius: 20px;
+    height: 350px;
+
+}
+#rate{
+    width: 20px;
+}
+
+#description{
+    width: 220px;
+    font-size: 10px;
+}
+
+#card2{
+    /* border: #2d1c30 solid; */
+        width: 230px;
+        padding: 10px;
+        font-size: smaller;
+
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* gap: 40px; */
+    color: white;
+    width: 290px;
+    height: 530px;
+    /* border: solid; */
+}
+
+#title{
+    margin: 0;
+}
+
+#star{
+    width: 50px;
+}
